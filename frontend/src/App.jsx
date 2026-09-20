@@ -3,7 +3,7 @@ import { analyzeImage } from './services/api.js'
 import './App.css'
 
 const acceptedFormats = '.jpg,.jpeg,.png,.tif,.tiff'
-const BACKEND_URL = 'http://127.0.0.1:8000'
+const BACKEND_URL = 'https://satquery-ai-a20n.onrender.com'
 
 function formatFileSize(bytes) {
   if (bytes < 1024 * 1024) return `${Math.max(1, Math.round(bytes / 1024))} KB`
